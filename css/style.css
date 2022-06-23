@@ -1,0 +1,97 @@
+
+body{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/fondo2.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+h1 {
+    text-align: right;
+}
+
+h2, h3 {
+    background-color: #386273;
+}
+
+label {
+    background-color: #386273;
+}
+
+.cajacentro {
+    margin: 50px auto !important;
+    width: 540px !important;
+    height: 316px;
+    background-color: #8f8989;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+h5{
+    width: 300px;
+    margin: 10px 0px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #386273;
+}
+.invisible{
+    display: none;
+}
+.visible{
+    display: block;
+}
+.padre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #386273;
+    border-radius: 20px;
+    padding-top: 25px;
+}
+.hijo, .operaciones{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: #386273;
+}
+.btn{
+    margin-top: 15px;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    background-color: #386273;
+}
+
+.btninicio:hover {
+    background-color: #8DA691;
+}
+input{
+    margin: 15px 0px;
+    padding: 5px;
+    width: 300px;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    
+}
+
+footer{
+    text-align: center;
+    color: #386273;
+    display: block;
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+    font-weight: bold;
+}
